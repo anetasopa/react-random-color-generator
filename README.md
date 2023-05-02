@@ -4,7 +4,7 @@ This application will show a random color when a button is clicked.
 
 ### TODO
 
-- [] Searching for a library that generates the color
+- [x] Searching for a library that generates the color
 - [] Save the generates color in the variable
 - [] Create a button which will generate a random color when clicked
 - [] Create a div where the color will display when the button is clicked

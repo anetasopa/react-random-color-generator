@@ -1,4 +1,41 @@
-.App {
-  background-color: bisque;
+.app {
+  background-color: azure;
   height: 100vh;
+  padding-top: 30px;
+}
+
+.app div:first-child {
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app div:first-child span {
+  color: black;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.button-container > button {
+  background-color: aqua;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.button-container > button:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: blueviolet;
+  color: white;
 }
