@@ -1,4 +1,7 @@
 import './App.css';
+import randomColor from 'randomcolor';
+
+console.log(randomColor);
 
 export default function App() {
   return (
