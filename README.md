@@ -14,10 +14,10 @@ This application will show a random color when a button is clicked.
 
 - [x] Ask for a hue
 - [x] Ask for a lightness
-- [] Transition smoothly between the colors as they change
-- [] Use a CSS-in-JS library for all styling (eg. Emotion or Styled Components)
-- [] Ask for a size for the color box and generate a box of that size
-- [] Make a "screensaver mode" where the color box moves around in a diagonal pattern, bouncing off the screen edges and changing color (eg. like this)
+- [ ] Transition smoothly between the colors as they change
+- [ ] Use a CSS-in-JS library for all styling (eg. Emotion or Styled Components)
+- [ ] Ask for a size for the color box and generate a box of that size
+- [ ] Make a "screensaver mode" where the color box moves around in a diagonal pattern, bouncing off the screen edges and changing color (eg. like this)
 
 ### How run the project?
 
