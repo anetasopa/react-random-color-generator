@@ -14,7 +14,7 @@
   width: 500px;
   border-radius: 10px;
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   color: white;
   border: 1px solid white;
   position: relative;
