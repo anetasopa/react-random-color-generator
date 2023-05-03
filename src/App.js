@@ -4,16 +4,14 @@ import { useState } from 'react';
 import frame from './frame.png';
 
 export default function App() {
-  const [color, setColor] = useState('');
+  const [color, setColor] = useState(randomColor);
   const [valueHue, setValueHue] = useState('');
   const [valueLightness, setValueLightness] = useState('');
-
-  const changeColorTittle = color === '' ? 'dark' : null;
 
   return (
     <div className="app">
       <div style={{ background: color }}>
-        <h1 className={changeColorTittle}>Generated Color:</h1>
+        <h1>Generated Color:</h1>
         <span className="color-text">{color}</span>
         <form
           onSubmit={(e) => {
@@ -21,7 +19,7 @@ export default function App() {
           }}
         >
           <div className="inputs-component">
-            <label className={changeColorTittle}>
+            <label>
               {' '}
               Hue:
               <input
@@ -34,7 +32,7 @@ export default function App() {
                 }}
               />
             </label>
-            <label className={changeColorTittle}>
+            <label>
               {' '}
               Lightness:
               <input
@@ -47,17 +45,15 @@ export default function App() {
             </label>
           </div>
           <div className="button-container">
-            {valueHue === '' ? null : (
-              <button
-                onClick={() =>
-                  setColor(
-                    randomColor({ hue: valueHue, lightness: valueLightness }),
-                  )
-                }
-              >
-                Generate
-              </button>
-            )}
+            <button
+              onClick={() =>
+                setColor(
+                  randomColor({ hue: valueHue, lightness: valueLightness }),
+                )
+              }
+            >
+              Generate
+            </button>
           </div>
           <img src={frame} alt="Frame" />
         </form>
