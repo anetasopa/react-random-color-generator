@@ -5,10 +5,19 @@ This application will show a random color when a button is clicked.
 ### TODO
 
 - [x] Searching for a library that generates the color
-- [] Save the generates color in the variable
-- [] Create a button which will generate a random color when clicked
-- [] Create a div where the color will display when the button is clicked
-- [] Add a text in the div which will write the name of the actual color
+- [x] Save the generates color in the variable
+- [x] Create a button which will generate a random color when clicked
+- [x] Create a div where the color will display when the button is clicked
+- [x] Add a text in the div which will write the name of the actual color
+
+### Stretch Goals
+
+- [x] Ask for a hue
+- [x] Ask for a lightness
+- [] Transition smoothly between the colors as they change
+- [] Use a CSS-in-JS library for all styling (eg. Emotion or Styled Components)
+- [] Ask for a size for the color box and generate a box of that size
+- [] Make a "screensaver mode" where the color box moves around in a diagonal pattern, bouncing off the screen edges and changing color (eg. like this)
 
 ### How run the project?
 
