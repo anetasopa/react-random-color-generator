@@ -125,3 +125,7 @@ img {
   z-index: -1;
   /* object-fit: cover; */
 }
+
+.dark {
+  color: black;
+}
