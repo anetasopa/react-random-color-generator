@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="app">
       <div style={{ background: color }}>
-        <h1>Generated Color: {color}</h1>
+        <div className="generated-color">Generated Color: {color}</div>
         <form
           onSubmit={(e) => {
             e.preventDefault();
