@@ -1,5 +1,5 @@
 import './App.css';
-import { randomColor } from 'randomcolor';
+import randomColor from 'randomcolor';
 import { useState } from 'react';
 import frame from './frame.png';
 
@@ -45,11 +45,11 @@ export default function App() {
           </div>
           <div className="button-container">
             <button
-              onClick={() =>
+              onClick={() => {
                 setColor(
                   randomColor({ hue: valueHue, lightness: valueLightness }),
-                )
-              }
+                );
+              }}
             >
               Generate
             </button>
